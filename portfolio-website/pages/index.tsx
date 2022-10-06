@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { TypeAnimation } from 'react-type-animation';
 
 
 const Home: NextPage = () => {
@@ -15,7 +16,24 @@ const Home: NextPage = () => {
       </Head>
 
       <header className={styles.header}>
-        <h1 className={styles.title}>I'm <a>Mihir.</a></h1>
+        <h1 className={styles.title}>I'm 
+          <TypeAnimation
+            sequence={[
+              "Mihir.",
+              2000,
+              "a student.",
+              2000,
+              "a developer.",
+              2000,
+              "a learner.",
+              2000,
+              () => {console.log("Done typing");}
+            ]}
+            wrapper="div"
+            cursor={true}
+            repeat={Infinity}
+          />
+        </h1>
         <h3>Scroll down to learn more.</h3>
       </header>
 
@@ -58,7 +76,6 @@ const Home: NextPage = () => {
 
       <footer className={styles.footer}>
         <span className={styles.logo}>
-          <p className='text-black'>Hello world!</p>
           <a href="https://www.linkedin.com/in/the-mihir-sahu" target="blank"><ion-icon size="large" name="logo-linkedin"></ion-icon></a>
           <a><ion-icon size="large" name="logo-github"></ion-icon></a>
           <a><ion-icon size="large" name="logo-discord"></ion-icon></a>
