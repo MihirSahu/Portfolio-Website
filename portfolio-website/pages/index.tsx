@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { IonIcon } from '@ionic/react';
+
 
 const Home: NextPage = () => {
   return (
@@ -10,6 +10,8 @@ const Home: NextPage = () => {
       <Head>
         <title>Mihir Sahu</title>
         <link rel="icon" href="/m.png" />
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
       </Head>
 
       <header className={styles.header}>
@@ -55,17 +57,14 @@ const Home: NextPage = () => {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-            <IonIcon icon={logo-linkedin} />
-          </span>
-        </a>
+        <span className={styles.logo}>
+          <p className='text-black'>Hello world!</p>
+          <a href="https://www.linkedin.com/in/the-mihir-sahu" target="blank"><ion-icon size="large" name="logo-linkedin"></ion-icon></a>
+          <a><ion-icon size="large" name="logo-github"></ion-icon></a>
+          <a><ion-icon size="large" name="logo-discord"></ion-icon></a>
+          <a><ion-icon size="large" name="logo-instagram"></ion-icon></a>
+          <a><ion-icon size="large" name="mail-outline"></ion-icon></a>
+        </span>
       </footer>
     </div>
   )
