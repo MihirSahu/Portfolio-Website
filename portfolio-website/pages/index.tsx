@@ -1,8 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { TypeAnimation } from 'react-type-animation';
 
 
 const Home: NextPage = () => {
@@ -11,78 +9,64 @@ const Home: NextPage = () => {
       <Head>
         <title>Mihir Sahu</title>
         <link rel="icon" href="/m.png" />
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"></link>
       </Head>
 
-      <header className={styles.header}>
-        <h1 className={styles.title}>I'm 
-          <TypeAnimation
-            sequence={[
-              "Mihir.",
-              2000,
-              "a student.",
-              2000,
-              "a developer.",
-              2000,
-              "a learner.",
-              2000,
-              () => {console.log("Done typing");}
-            ]}
-            wrapper="div"
-            cursor={true}
-            repeat={Infinity}
-          />
-        </h1>
-        <h3>Scroll down to learn more.</h3>
-      </header>
-
       <main className={styles.main}>
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.tsx</code>
-        </p>
+        <div>
+          <p className={styles.sectionTitle}>
+            About Me
+          </p>
+          <p className={styles.description}>
+            Hi! I'm Mihir and I'm a third year student at the University of Houston. I've wanted to learn more about technology from the moment that I was introduced to it, and I've decided to select Computer Science as one of my majors so that I can continue to dedicate myself to it. I've learned a lot, and I have no intention of stopping now.
+          </p>
+          <p className={styles.description}>
+            In my free time you'll find me reading, browsing Reddit, playing the latest competitive first person shooter games, hanging out with friends, or learning the most random things that you can think of, such as how to solve a rubik's cube in 20 moves or how to make shuffling playing cards look cool.
+          </p>
+
+          <p className={styles.sectionTitle}>
+            Education
+          </p>
+          <p className={styles.sectionTitle}>
+            Experience
+          </p>
+          <p className={styles.sectionTitle}>
+            Projects
+          </p>
+        </div>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://github.com/Recharge-App" target="_blank" className={styles.card}>
+            <h2>Recharge &rarr;</h2>
+            <p>Full stack mobile app for the UH community to find events and activities across campus.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="https://github.com/MihirSahu/WatchPartyBot" target="_blank" className={styles.card}>
+            <h2>Watch Party Bot &rarr;</h2>
+            <p>A Discord bot to manage watch parties on the CougarCS Discord server.</p>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://github.com/MihirSahu/Personal-Configs"
+            target="_blank"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
+            <h2>Home Server &rarr;</h2>
+            <p>Created a home server to host a variety of services using Docker on a GNU/Linux system.</p>
+          </a>
+
+          <a
+            href="https://github.com/MihirSahu/Portfolio-Website"
+            target="_blank"
+            className={styles.card}
+          >
+            <h2>Portfolio Website &rarr;</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              My new portfolio website.
             </p>
           </a>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        <span className={styles.logo}>
-          <a href="https://www.linkedin.com/in/the-mihir-sahu" target="blank"><ion-icon size="large" name="logo-linkedin"></ion-icon></a>
-          <a><ion-icon size="large" name="logo-github"></ion-icon></a>
-          <a><ion-icon size="large" name="logo-discord"></ion-icon></a>
-          <a><ion-icon size="large" name="logo-instagram"></ion-icon></a>
-          <a><ion-icon size="large" name="mail-outline"></ion-icon></a>
-        </span>
-      </footer>
     </div>
   )
 }
