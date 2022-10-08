@@ -27,12 +27,29 @@ const Home: NextPage = () => {
           <p className={styles.sectionTitle}>
             Education
           </p>
-          <p className={styles.sectionTitle}>
-            Experience
+          <p className={styles.description}>
+          Bachelor of Science in Computer Science <br></br>
+          College of Natural Sciences and Mathematics
+          <div className={styles.description}>
+            Bachelor of Business Administration in Finance <br></br>
+            <a className="text-black" href="https://www.bauer.uh.edu/" target="_blank">C. T. Bauer College of Business</a>
+          </div>
           </p>
-          <p className={styles.sectionTitle}>
-            Projects
-          </p>
+
+          <p className={styles.sectionTitle}>Experience</p>
+          <div>
+            <div className={styles.sectionEntry}>Buzly</div>
+            <div className={styles.sectionEntry}>Seatgull</div>
+            <div className={styles.sectionEntry}>Neuhaus Education Center</div>
+          </div>
+
+          <p className={styles.sectionTitle}>Activities</p>
+          <div>
+            <div className={styles.sectionEntry}>CougarCS</div>
+            <div className={styles.sectionEntry}>CodeRED Odyssey</div>
+          </div>
+
+          <p className={styles.sectionTitle}>Projects</p>
         </div>
 
         <div className={styles.grid}>
