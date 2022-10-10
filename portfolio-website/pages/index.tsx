@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link';
 
 
 const Home: NextPage = () => {
@@ -55,16 +56,26 @@ const Home: NextPage = () => {
           </div>
 
           <div className={styles.sectionTitle}>Experience</div>
-          <div>
-            <div className={styles.sectionEntry}>Buzly</div>
-            <div className={styles.sectionEntry}>Seatgull</div>
-            <div className={styles.sectionEntry}>Neuhaus Education Center</div>
+          <div className="flex flex-col space-y-8">
+            <Link href="/Buzly">
+              <a className={styles.sectionEntry}>Buzly</a>
+            </Link>
+            <Link href="/Seatgull">
+              <a className={styles.sectionEntry}>Seatgull</a>
+            </Link>
+            <Link href="/NeuhausEducationCenter">
+              <a className={styles.sectionEntry}>Neuhaus Education Center</a>
+            </Link>
           </div>
 
           <div className={styles.sectionTitle}>Activities</div>
-          <div>
-            <div className={styles.sectionEntry}>CougarCS</div>
-            <div className={styles.sectionEntry}>CodeRED Odyssey</div>
+          <div className="flex flex-col space-y-8">
+            <Link href="/CougarCS">
+              <a className={styles.sectionEntry}>CougarCS</a>
+            </Link>
+            <Link href="/CodeRED">
+              <a className={styles.sectionEntry}>CodeRED Odyssey</a>
+            </Link>
           </div>
 
           <p className={styles.sectionTitle}>Projects</p>

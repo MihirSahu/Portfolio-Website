@@ -18,7 +18,7 @@
 
 .sectionTitle {
   text-align: center;
-  font-size: 1.5rem; /* 24px */
+  font-size: 1.8rem; /* 24px */
   line-height: 2rem; /* 32px */
   margin-top: 2rem; /* 32px */
   font-weight: 600;
@@ -26,12 +26,16 @@
 }
 
 .sectionEntry {
-  text-align: start;
+  text-align: center;
   font-size: 1.3rem; /* 24px */
   line-height: 2rem; /* 32px */
   margin-top: 2rem; /* 32px */
   font-weight: 600;
   color: #2E8BC0;
+}
+
+.sectionEntry:hover {
+  color: #0070f3;
 }
 
 .main {
