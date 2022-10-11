@@ -14,3 +14,6 @@ This gave me a lot of pain because I didn't know how hosting on Netlify worked.
     - **READ THE DOCUMENTATION**
     - When importing a repository from Github, Netlify will automatically detect Next.js projects and install the corresponding tools for them
     - `Deploys > Build & Deploy > Build Settings` is your friend. [Common Next.js build configuration](https://docs.netlify.com/integrations/frameworks/#next-js)
+
+## Netlify Status
+[![Netlify Status](https://api.netlify.com/api/v1/badges/edeec737-c8a3-49c8-af5e-428913476cbe/deploy-status)](https://app.netlify.com/sites/practical-lumiere-f94582/deploys)
