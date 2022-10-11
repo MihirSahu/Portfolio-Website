@@ -3,13 +3,15 @@ import { TypeAnimation } from 'react-type-animation';
 // Import svg icons
 import LinkedIn from '../public/logo-linkedin.svg';
 import Github from '../public/logo-github.svg';
-import Discord from '../public/logo-discord.svg';
 import Instagram from '../public/logo-instagram.svg';
 import Email from '../public/mail-outline.svg';
 import Flag from '../public/flag-outline.svg';
+import DiscordButton from './DiscordButton';
+
 
 const Header = () => {
     return (
+      <>
       <header className={styles.header}>
         <h1 className="m-0 text-6xl flex flex-row justify-center mb-3">I'm&nbsp;
           <TypeAnimation
@@ -40,13 +42,14 @@ const Header = () => {
           */}
           <a href="https://linkedin.com/in/mihir-sahu-ab5b6020b" target="_blank"><LinkedIn className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
           <a href="https://github.com/MihirSahu" target="_blank"><Github className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
-          <a href="" target="_blank"><Discord className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
+          <DiscordButton/>
           <a href="https://www.instagram.com/themihirsahu/" target="_blank"><Instagram className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
           <a href="mailto:2002mihir@gmail.com" target="_blank"><Email className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
           <a href="https://tryhackme.com/p/TheOnlyOnzz" target="_blank"><Flag className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
         </div>
         <a className={styles.resumeButton} href="/Resume.pdf" target="_blank">Résumé</a>
       </header>
+      </>
     );
 }
 
