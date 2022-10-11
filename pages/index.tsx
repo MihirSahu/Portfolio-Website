@@ -41,7 +41,7 @@ const Home: NextPage = () => {
           <div className={styles.description}>
             Bachelor of Science in Computer Science <br></br>
             <a
-              className="text-black"
+              className="hover:text-niceblue"
               href="https://www.uh.edu/nsm/"
               target="_blank"
             >
@@ -49,7 +49,11 @@ const Home: NextPage = () => {
             </a>
             <div className={styles.description}>
               Bachelor of Business Administration in Finance <br></br>
-              <a href="https://www.bauer.uh.edu/" target="_blank">
+              <a
+                className="hover:text-niceblue"
+                href="https://www.bauer.uh.edu/"
+                target="_blank"
+              >
                 C. T. Bauer College of Business
               </a>
             </div>

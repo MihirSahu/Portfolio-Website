@@ -22,11 +22,12 @@ const Header = () => {
               2000,
               "a learner.",
               2000,
+              "Mihir Sahu.",
+              2000,
               () => {console.log("Done typing");}
             ]}
             wrapper="div"
             cursor={true}
-            repeat={Infinity}
             style={{ color: '#0070f3', textDecoration: 'none' }}
           />
         </h1>
@@ -44,6 +45,7 @@ const Header = () => {
           <a href="mailto:2002mihir@gmail.com" target="_blank"><Email className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
           <a href="https://tryhackme.com/p/TheOnlyOnzz" target="_blank"><Flag className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
         </div>
+        <a className={styles.resumeButton} href="/Resume.pdf" target="_blank">Résumé</a>
       </header>
     );
 }
