@@ -24,10 +24,9 @@ const Home: NextPage = () => {
             Computer Science and Finance at the University of Houston.{" "}
           </p>
           <p className={styles.description}>
-            I've wanted to learn more about technology from the moment that I
-            was introduced to it, and I've decided to select Computer Science as
-            one of my majors so that I can continue to dedicate myself to it.
-            I've learned a lot, and I have no intention of stopping now.
+            I've wanted to learn more about computers from the moment that I
+            was introduced to them, and I've decided to select Computer Science as
+            one of my majors so that I can continue to do so.
           </p>
           <p className={styles.description}>
             In my free time you'll find me reading, browsing Reddit, playing the
