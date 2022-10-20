@@ -11,6 +11,7 @@
   "dependencies": {
     "autoprefixer": "^10.4.12",
     "babel-plugin-inline-react-svg": "^2.0.1",
+    "marked": "^4.1.1",
     "next": "12.3.1",
     "postcss": "^8.4.17",
     "react": "18.2.0",
