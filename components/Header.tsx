@@ -47,7 +47,10 @@ const Header = () => {
           <a href="mailto:2002mihir@gmail.com" target="_blank"><Email className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
           <a href="https://tryhackme.com/p/TheOnlyOnzz" target="_blank"><Flag className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
         </div>
-        <a className={styles.resumeButton} href="/Resume.pdf" target="_blank">Résumé</a>
+        <div className='flex flex-row space-x-8'>
+          <a className={styles.resumeButton} href="/Resume.pdf" target="_blank">Résumé</a>
+          <a className={styles.resumeButton} href="/blog/Test" target="_blank">Blog</a>
+        </div>
       </header>
       </>
     );
