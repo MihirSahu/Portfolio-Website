@@ -1,15 +1,24 @@
-import BlogPost from "../components/BlogPost";
-import corridor from './blog/Corridor.md';
-import fs from 'fs';
+import styles from '../styles/Home.module.css'
+import Link from 'next/link';
+
 
 const Blog = () => {
 
-    const numPosts = fs.readdirSync('./blog');
-
     return(
         <>
-            <div>{numPosts}</div>
-            <BlogPost blogPost={corridor} />
+            <div className={styles.grid}>
+                <Link href="/blog/Corridor">
+                    <a
+                        target="_blank"
+                        className={styles.longCard}
+                    >
+                        <h2>TryHackMe Corridor CTF Writeup &rarr;</h2>
+                        <p>
+                            My writeup for John Hammond's Corridor CTF.
+                        </p>
+                    </a>
+                </Link>
+            </div>
         </>
     );
 }
