@@ -4,6 +4,7 @@ import Layout from "../components/Layout";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { useRouter } from 'next/router';
+import Head from 'next/head'
 
 function MyApp({ Component, pageProps }: AppProps) {
 
@@ -21,13 +22,24 @@ function MyApp({ Component, pageProps }: AppProps) {
 
 
   return (
-    <Layout>
-      <div className = "flex flex-col gap-6">
-        <Header/>
-        <Component {...pageProps} />
-        <Footer/>
-      </div>
-    </Layout>
+    <>
+      <Head>
+        <title>Mihir Sahu</title>
+        <link rel="icon" href="/m.png" />
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+        ></link>
+      </Head>
+
+      <Layout>
+        <div className = "flex flex-col gap-6">
+          <Header/>
+          <Component {...pageProps} />
+          <Footer/>
+        </div>
+      </Layout>
+    </>
   )
 }
 

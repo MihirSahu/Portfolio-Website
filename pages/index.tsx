@@ -1,5 +1,4 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link';
 
@@ -7,15 +6,6 @@ import Link from 'next/link';
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Mihir Sahu</title>
-        <link rel="icon" href="/m.png" />
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
-        ></link>
-      </Head>
-
       <main className={styles.main}>
         <div>
           <p className={styles.sectionTitle}>About Me</p>
