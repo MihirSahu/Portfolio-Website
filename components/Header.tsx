@@ -13,27 +13,26 @@ const Header = () => {
     return (
       <>
       <header className={styles.header}>
-        <h1 className="m-0 text-6xl flex flex-row justify-center mb-3">I'm&nbsp;
-          <TypeAnimation
-            sequence={[
-              "Mihir Sahu.",
-              2000,
-              "a student.",
-              2000,
-              "a developer.",
-              2000,
-              "a learner.",
-              2000,
-              "Mihir Sahu.",
-              2000,
-              () => {console.log("Done typing");}
-            ]}
-            wrapper="div"
-            cursor={true}
-            style={{ color: '#0070f3', textDecoration: 'none' }}
-          />
+        <h1 className="m-0 text-6xl flex flex-col justify-center mb-3 text-center">I'm&nbsp;
+        <TypeAnimation
+          sequence={[
+            "Mihir Sahu.",
+            2000,
+            "a student.",
+            2000,
+            "a developer.",
+            2000,
+            "a learner.",
+            2000,
+            "Mihir Sahu.",
+            2000,
+            () => {console.log("Done typing");}
+          ]}
+          wrapper="div"
+          cursor={true}
+          style={{ color: '#0070f3', textDecoration: 'none'}}
+        />
         </h1>
-        <p className="text-xl">Student & Software Engineer</p>
         <p className='text-xl'>Computer Science and Finance @ UH</p>
         <div className="flex flex-row ml-2 justify-center mt-3">
           {/*
