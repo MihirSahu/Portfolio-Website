@@ -48,7 +48,7 @@ const Header = () => {
         </div>
         <div className='flex flex-row space-x-8'>
           <a className={styles.resumeButton} href="/Resume.pdf" target="_blank">Résumé</a>
-          <a className={styles.resumeButton} href="/blog/Test" target="_blank">Blog</a>
+          <a className={styles.resumeButton} href="/Blog" target="_blank">Blog</a>
         </div>
       </header>
       </>
