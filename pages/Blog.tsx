@@ -44,7 +44,7 @@ const Blog = ({ articles }: { articles: string[] }) => {
     );
 }
 
-Blog.getInitialProps = () => {
+Blog.getInitialProps = async () => {
 
     const articlePath = './pages/blog/';
     const articleList: string[] = [];
