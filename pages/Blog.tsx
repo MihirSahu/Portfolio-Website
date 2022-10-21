@@ -3,21 +3,23 @@ import Link from 'next/link';
 import fs from 'fs';
 
 
-const BlogCard = (article: string) => {
+const BlogCard = (article: any) => {
+
+    const articleName = article?.article.substr(0, article?.article.indexOf('.'));
 
     //console.log(article);
     return (
         <>
             <div className={styles.grid}>
                 {/* The below code automatically creates a card with a link for each markdown file passed to this component from Blog.getInitialProps */}
-                <Link href={"./blog/" + article?.article.substr(0, article?.article.indexOf('.'))}>
+                <Link href={"./blog/" + articleName}>
                     <a
                         target="_blank"
                         className={styles.longCard}
                     >
-                        <h2>TryHackMe {article?.article.substr(0, article?.article.indexOf('.'))} CTF Writeup &rarr;</h2>
+                        <h2>TryHackMe {articleName} CTF Writeup &rarr;</h2>
                         <p>
-                            My writeup for {article?.article.substr(0, article?.article.indexOf('.'))} CTF.
+                            My writeup for {articleName} CTF.
                         </p>
                     </a>
                 </Link>
