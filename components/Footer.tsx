@@ -7,6 +7,7 @@ import Discord from '../public/logo-discord.svg';
 import Instagram from '../public/logo-instagram.svg';
 import Email from '../public/mail-outline.svg';
 import Flag from '../public/flag-outline.svg';
+import Medium from '../public/logo-medium.svg';
 
 const Footer = () => {
     return (
@@ -22,6 +23,7 @@ const Footer = () => {
           <a href="https://www.instagram.com/themihirsahu/" target="_blank"><Instagram className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
           <a href="mailto:2002mihir@gmail.com" target="_blank"><Email className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
           <a href="https://tryhackme.com/p/TheOnlyOnzz" target="_blank"><Flag className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
+          <a href="https://mihirsahu.medium.com" target="_blank"><Medium className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
         </div>
       </footer>
     );
