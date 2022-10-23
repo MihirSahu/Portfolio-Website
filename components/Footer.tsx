@@ -17,7 +17,7 @@ const Footer = () => {
           <Link href = "https://www.linkedin.com/in/the-mihir-sahu"><a target="_blank"><i className="text-3xl pl-1 pr-1 devicon-linkedin-plain"></i></a></Link>
           <Link href = "https://github.com/MihirSahu"><a target="_blank"><i className="text-3xl pl-1 pr-1 devicon-github-original"></i></a></Link>
           */}
-          <a href="https://linkedin.com/in/mihir-sahu-ab5b6020b" target="_blank"><LinkedIn className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
+          <a href="https://www.linkedin.com/in/the-mihir-sahu" target="_blank"><LinkedIn className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
           <a href="https://github.com/MihirSahu" target="_blank"><Github className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
           <a href="" target="_blank"><Discord className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
           <a href="https://www.instagram.com/themihirsahu/" target="_blank"><Instagram className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
