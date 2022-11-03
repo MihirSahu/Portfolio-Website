@@ -2,6 +2,9 @@ import type { NextPage } from 'next'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link';
 
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+
 
 const Home: NextPage = () => {
   return (
@@ -25,6 +28,27 @@ const Home: NextPage = () => {
             such as how to solve a rubik's cube in 20 moves or how to make
             shuffling playing cards look cool.
           </p>
+
+          <Carousel
+            showStatus={false}
+            autoPlay={true}
+            interval={5000}
+            transitionTime={1000}
+            infiniteLoop={true}
+          >
+            <div>
+              <img src="Profile-Pic.jpg"/>
+              <p className="legend">Mihir Sahu</p>
+            </div>
+            <div>
+              <img src="CougarCS_Officers.jpeg"/>
+              <p className="legend">CougarCS Officers</p>
+            </div>
+            <div>
+              <img src="CodeRED_Officers.jpg"/>
+              <p className="legend">CodeRED Odyssey Officers</p>
+            </div>
+          </Carousel>
 
           <p className={styles.sectionTitle}>Education</p>
           <div className={styles.description}>
