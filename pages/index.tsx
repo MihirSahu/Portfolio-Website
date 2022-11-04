@@ -35,18 +35,16 @@ const Home: NextPage = () => {
             interval={5000}
             transitionTime={1000}
             infiniteLoop={true}
+            showThumbs={false}
           >
             <div>
               <img src="Profile-Pic.jpg"/>
-              <p className="legend">Mihir Sahu</p>
             </div>
             <div>
               <img src="CougarCS_Officers.jpeg"/>
-              <p className="legend">CougarCS Officers</p>
             </div>
             <div>
               <img src="CodeRED_Officers.jpg"/>
-              <p className="legend">CodeRED Odyssey Officers</p>
             </div>
           </Carousel>
 
