@@ -28,7 +28,7 @@ const Home: NextPage = () => {
             such as how to solve a rubik's cube in 20 moves or how to make
             shuffling playing cards look cool.
           </p>
-
+          {/*
           <Carousel
             showStatus={false}
             autoPlay={true}
@@ -47,6 +47,7 @@ const Home: NextPage = () => {
               <img src="CodeRED_Officers.jpg"/>
             </div>
           </Carousel>
+          */}
 
           <p className={styles.sectionTitle}>Education</p>
           <div className={styles.description}>
