@@ -1,5 +1,6 @@
 import styles from '../styles/Home.module.css'
 import { TypeAnimation } from 'react-type-animation';
+import Link from 'next/link';
 // Import svg icons
 import LinkedIn from '../public/logo-linkedin.svg';
 import Github from '../public/logo-github.svg';
@@ -41,9 +42,9 @@ const Header = () => {
         </div>
         <div className='flex flex-row space-x-4'>
           {/*<a className={styles.resumeButton} href="/Blog" target="_blank">Blog</a>*/}
-          <a className={styles.resumeButton} href="/">About</a>
-          <a className={styles.resumeButton} href="/Resume.pdf">Experience</a>
-          <a className={styles.resumeButton} href="/Resume.pdf">Projects</a>
+          <Link href="/"><a className={styles.resumeButton}>About</a></Link>
+          <Link href="/Resume.pdf"><a className={styles.resumeButton} target='_blank'>Experience</a></Link>
+          <Link href="/Resume.pdf"><a className={styles.resumeButton} target='_blank'>Projects</a></Link>
         </div>
         <div className="flex flex-row ml-2 justify-center">
           {/*
