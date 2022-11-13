@@ -39,6 +39,12 @@ const Header = () => {
           <p className='text-xl'>CS and Finance @ UH</p>
           <p className='text-xl'>Incoming SWE @ Chevron</p>
         </div>
+        <div className='flex flex-row space-x-4'>
+          {/*<a className={styles.resumeButton} href="/Blog" target="_blank">Blog</a>*/}
+          <a className={styles.resumeButton} href="/">About</a>
+          <a className={styles.resumeButton} href="/Resume.pdf">Experience</a>
+          <a className={styles.resumeButton} href="/Resume.pdf">Projects</a>
+        </div>
         <div className="flex flex-row ml-2 justify-center">
           {/*
           <Link href = "https://www.linkedin.com/in/the-mihir-sahu"><a target="_blank"><i className="text-3xl pl-1 pr-1 devicon-linkedin-plain"></i></a></Link>
@@ -52,12 +58,6 @@ const Header = () => {
           <a href="mailto:2002mihir@gmail.com" target="_blank"><Email className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
           <a href="https://tryhackme.com/p/TheOnlyOnzz" target="_blank"><Flag className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
           <a href="https://mihirsahu.medium.com" target="_blank"><Medium className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
-        </div>
-        <div className='flex flex-row space-x-4'>
-          {/*<a className={styles.resumeButton} href="/Blog" target="_blank">Blog</a>*/}
-          <a className={styles.resumeButton} href="/">About</a>
-          <a className={styles.resumeButton} href="/Resume.pdf">Experience</a>
-          <a className={styles.resumeButton} href="/Resume.pdf">Projects</a>
         </div>
       </header>
       </>
