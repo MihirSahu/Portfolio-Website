@@ -8,6 +8,7 @@ import Instagram from '../public/logo-instagram.svg';
 import Email from '../public/mail-outline.svg';
 import Flag from '../public/flag-outline.svg';
 import Medium from '../public/logo-medium.svg';
+import Resume from '../public/document-text-outline.svg';
 
 const Footer = () => {
     return (
@@ -17,6 +18,7 @@ const Footer = () => {
           <Link href = "https://www.linkedin.com/in/the-mihir-sahu"><a target="_blank"><i className="text-3xl pl-1 pr-1 devicon-linkedin-plain"></i></a></Link>
           <Link href = "https://github.com/MihirSahu"><a target="_blank"><i className="text-3xl pl-1 pr-1 devicon-github-original"></i></a></Link>
           */}
+          <a href="/Resume.pdf" target="_blank"><Resume className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
           <a href="https://www.linkedin.com/in/the-mihir-sahu" target="_blank"><LinkedIn className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
           <a href="https://github.com/MihirSahu" target="_blank"><Github className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
           <a href="" target="_blank"><Discord className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>

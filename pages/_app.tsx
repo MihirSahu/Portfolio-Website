@@ -10,13 +10,24 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   const router = useRouter();
 
-  if (router.asPath == '/blog/Test') {
+  if (router.asPath == '/') {
     return (
-      <div className = "flex flex-col gap-6 justify-center items-center">
-        <Header/>
-        <Component {...pageProps} />
-        <Footer/>
-      </div>
+    <>
+      <Head>
+        <title>Mihir Sahu</title>
+        <link rel="icon" href="/beach_pic_favicon.png" />
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+        ></link>
+      </Head>
+
+      <Layout>
+        <div className = "flex flex-col gap-6">
+          <Component {...pageProps} />
+        </div>
+      </Layout>
+    </>
     );
   }
 
@@ -34,7 +45,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
       <Layout>
         <div className = "flex flex-col gap-6">
-          <Header/>
+          {/*<Header/>*/}
           <Component {...pageProps} />
           <Footer/>
         </div>
