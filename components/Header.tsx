@@ -42,9 +42,9 @@ const Header = () => {
         </div>
         <div className='flex flex-row space-x-4'>
           {/*<a className={styles.resumeButton} href="/Blog" target="_blank">Blog</a>*/}
-          <Link href="/"><a className={styles.resumeButton}>About</a></Link>
-          <Link href="/Resume.pdf"><a className={styles.resumeButton} target='_blank'>Experience</a></Link>
-          <Link href="/Resume.pdf"><a className={styles.resumeButton} target='_blank'>Projects</a></Link>
+          <Link href="/About"><a className={styles.resumeButton}>About</a></Link>
+          {/*<Link href="/About"><a className={styles.resumeButton} target='_blank'>Experience</a></Link>*/}
+          {/*<Link href="/Resume.pdf"><a className={styles.resumeButton} target='_blank'>Projects</a></Link>*/}
         </div>
         <div className="flex flex-row ml-2 justify-center">
           {/*
