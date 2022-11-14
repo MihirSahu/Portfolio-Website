@@ -1,12 +1,23 @@
 import styles from '../styles/Home.module.css'
-import Link from 'next/link';
+import { TypeAnimation } from 'react-type-animation';
 
 const About = () => {
     return (
     <div className={styles.container}>
       <main className={styles.main}>
         <div>
-          <p className={styles.sectionTitle}>About Me</p>
+          <div className={styles.sectionTitle}>
+            <TypeAnimation
+              sequence={[
+                "About Me",
+                2000,
+                () => {console.log("Done typing");}
+              ]}
+              wrapper="div"
+              cursor={true}
+              style={{ color: '#0070f3', textDecoration: 'none'}}
+            />
+          </div>
           <p className={styles.description}>
             Hi! I'm Mihir and I'm a third year student double majoring in
             Computer Science and Finance at the University of Houston.{" "}
@@ -44,7 +55,18 @@ const About = () => {
           </Carousel>
           */}
 
-          <p className={styles.sectionTitle}>Education</p>
+          <div className={styles.sectionTitle}>
+            <TypeAnimation
+              sequence={[
+                "Education",
+                2000,
+                () => {console.log("Done typing");}
+              ]}
+              wrapper="div"
+              cursor={true}
+              style={{ color: '#0070f3', textDecoration: 'none'}}
+            />
+          </div>
           <div className={styles.description}>
             Bachelor of Science in Computer Science <br></br>
             <a
