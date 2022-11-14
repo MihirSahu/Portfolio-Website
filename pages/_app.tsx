@@ -45,7 +45,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
       <Layout>
         <div className = "flex flex-col gap-6 min-h-screen justify-center">
-          {/*<Header/>*/}
+          <Header/>
           <Component {...pageProps} />
           <Footer/>
         </div>
