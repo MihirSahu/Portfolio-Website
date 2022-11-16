@@ -10,7 +10,7 @@ const Header = () => {
     return (
       <>
         <header className='flex flex-row justify-between mt-8 mx-6'>
-          <div className='justify-center'>
+          <div className='flex justify-center'>
             <button onClick={() => router.back()}><BackButton className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></button>
           </div>
           <div className='flex flex-row space-x-4'>
