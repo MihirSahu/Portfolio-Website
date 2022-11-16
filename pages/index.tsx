@@ -44,6 +44,8 @@ const Home: NextPage = () => {
           <div className='flex flex-row space-x-4'>
             {/*<a className={styles.resumeButton} href="/Blog" target="_blank">Blog</a>*/}
             <Link href="/About"><a className={styles.resumeButton}>About</a></Link>
+            <Link href="/Experience"><a className={styles.resumeButton}>Experience</a></Link>
+            <Link href="/Projects"><a className={styles.resumeButton}>Projects</a></Link>
             {/*<Link href="/About"><a className={styles.resumeButton} target='_blank'>Experience</a></Link>*/}
             {/*<Link href="/Resume.pdf"><a className={styles.resumeButton} target='_blank'>Projects</a></Link>*/}
           </div>
