@@ -39,7 +39,8 @@ const Home: NextPage = () => {
           </h1>
           <div className='text-center'>
             <p className='text-xl'>CS and Finance @ UH</p>
-            <p className='text-xl'>Incoming SWE @ Chevron</p>
+            <p className='text-xl'>Director of InfoSec @ CougarCS</p>
+            {/*<p className='text-xl'>Incoming SWE @ Chevron</p>*/}
           </div>
           <div className='flex flex-row space-x-4'>
             {/*<a className={styles.resumeButton} href="/Blog" target="_blank">Blog</a>*/}
