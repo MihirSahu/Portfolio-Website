@@ -20,30 +20,21 @@ const Experience = () => {
                 style={{ color: '#0070f3', textDecoration: 'none' }}
               />
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col mt-8">
             <Link href="/Seatgull">
-              <a className={styles.experienceCard}>
+              {/* Long card structure */}
+              <a className={styles.card}>
                 <div className='flex flex-row justify-between'>
                   <div>
                     Seatgull &rarr;
                   </div>
                   <div>
-                    Software Developer
                   </div>
                 </div>
               </a>
             </Link>
             <Link href="/NeuhausEducationCenter">
-              <a className={styles.experienceCard}>
-                <div className='flex flex-row justify-between'>
-                  <div>
-                    Neuhaus Education Center &rarr;
-                  </div>
-                  <div>
-                    Software Developer
-                  </div>
-                </div>
-              </a>
+              <a className={styles.card}>Neuhaus Education Center &rarr;</a>
             </Link>
           </div>
 
@@ -59,30 +50,12 @@ const Experience = () => {
                 style={{ color: '#0070f3', textDecoration: 'none' }}
               />
           </div>
-          <div className="flex flex-col space-y-8">
+          <div className="flex flex-col mt-8">
             <Link href="/CougarCS">
-              <a className={styles.experienceCard}>
-                <div className='flex flex-row justify-between'>
-                  <div>
-                    CougarCS &rarr;
-                  </div>
-                  <div>
-                    Software Developer
-                  </div>
-                </div>
-              </a>
+              <a className={styles.card}>CougarCS &rarr;</a>
             </Link>
             <Link href="/CodeRED">
-              <a className={styles.experienceCard}>
-                <div className='flex flex-row justify-between'>
-                  <div>
-                    CodeRED &rarr;
-                  </div>
-                  <div>
-                    Software Developer
-                  </div>
-                </div>
-              </a>
+              <a className={styles.card}>CodeRED Odyssey &rarr;</a>
             </Link>
           </div>
         </div>
