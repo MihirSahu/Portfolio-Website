@@ -20,15 +20,30 @@ const Experience = () => {
                 style={{ color: '#0070f3', textDecoration: 'none' }}
               />
           </div>
-          <div className="flex flex-col space-y-8">
-            <Link href="/Buzly">
-              <a className={styles.sectionEntry}>Buzly</a>
-            </Link>
+          <div className="flex flex-col">
             <Link href="/Seatgull">
-              <a className={styles.sectionEntry}>Seatgull</a>
+              <a className={styles.experienceCard}>
+                <div className='flex flex-row justify-between'>
+                  <div>
+                    Seatgull &rarr;
+                  </div>
+                  <div>
+                    Software Developer
+                  </div>
+                </div>
+              </a>
             </Link>
             <Link href="/NeuhausEducationCenter">
-              <a className={styles.sectionEntry}>Neuhaus Education Center</a>
+              <a className={styles.experienceCard}>
+                <div className='flex flex-row justify-between'>
+                  <div>
+                    Neuhaus Education Center &rarr;
+                  </div>
+                  <div>
+                    Software Developer
+                  </div>
+                </div>
+              </a>
             </Link>
           </div>
 
@@ -46,10 +61,28 @@ const Experience = () => {
           </div>
           <div className="flex flex-col space-y-8">
             <Link href="/CougarCS">
-              <a className={styles.sectionEntry}>CougarCS</a>
+              <a className={styles.experienceCard}>
+                <div className='flex flex-row justify-between'>
+                  <div>
+                    CougarCS &rarr;
+                  </div>
+                  <div>
+                    Software Developer
+                  </div>
+                </div>
+              </a>
             </Link>
             <Link href="/CodeRED">
-              <a className={styles.sectionEntry}>CodeRED Odyssey</a>
+              <a className={styles.experienceCard}>
+                <div className='flex flex-row justify-between'>
+                  <div>
+                    CodeRED &rarr;
+                  </div>
+                  <div>
+                    Software Developer
+                  </div>
+                </div>
+              </a>
             </Link>
           </div>
         </div>
