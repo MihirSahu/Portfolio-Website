@@ -21,7 +21,7 @@ const Experience = () => {
               />
           </div>
           <div className="flex flex-col mt-8">
-            <Link href="/Seatgull">
+            <Link href="">
               {/* Long card structure */}
               <a className={styles.card}>
                 <div className='flex flex-row justify-between'>
@@ -33,7 +33,7 @@ const Experience = () => {
                 </div>
               </a>
             </Link>
-            <Link href="/NeuhausEducationCenter">
+            <Link href="">
               <a className={styles.card}>Neuhaus Education Center &rarr;</a>
             </Link>
           </div>
@@ -51,10 +51,10 @@ const Experience = () => {
               />
           </div>
           <div className="flex flex-col mt-8">
-            <Link href="/CougarCS">
+            <Link href="">
               <a className={styles.card}>CougarCS &rarr;</a>
             </Link>
-            <Link href="/CodeRED">
+            <Link href="">
               <a className={styles.card}>CodeRED Odyssey &rarr;</a>
             </Link>
           </div>
