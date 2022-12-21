@@ -43,7 +43,7 @@ const Home: NextPage = () => {
             <p className='text-xl'>President @ <a href='https://cougarcs.com/' style={{color: "#eb1d25"}}>CougarCS</a></p>
             {/*<p className='text-xl'>Incoming SWE @ Chevron</p>*/}
           </div>
-          <div className='flex flex-col justify-center items-center space-y-4'>
+          <div className='flex space-x-4 flex-wrap justify-center gap-y-4'>
             {/*<a className={styles.resumeButton} href="/Blog" target="_blank">Blog</a>*/}
             <Link href="/About"><a className={styles.resumeButton}>About</a></Link>
             <Link href="/Experience"><a className={styles.resumeButton}>Experience</a></Link>
