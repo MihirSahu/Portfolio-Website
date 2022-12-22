@@ -6,6 +6,11 @@ const About = () => {
     <div className={styles.container}>
       <main className={styles.main}>
         <div>
+          <div className='flex flex-wrap justify-center'>
+            <div className='w-6/12 sm:w-3/12 px-4 rounded-full'>
+              <img src='/Discord-Profile-Pic.png'></img>
+            </div>
+          </div>
           <div className={styles.sectionTitle}>
             <TypeAnimation
               sequence={[
@@ -86,6 +91,24 @@ const About = () => {
                 C. T. Bauer College of Business
               </a>
             </div>
+          </div>
+          <div className={styles.sectionTitle}>
+            <TypeAnimation
+              sequence={[
+                "Currently I'm...",
+                2000,
+                () => {console.log("Done typing");}
+              ]}
+              wrapper="div"
+              cursor={true}
+              style={{ color: '#0070f3', textDecoration: 'none'}}
+            />
+          </div>
+          <div className='flex flex-col my-8 space-y-2 justify-center text-center'>
+            <div><span className='text-niceblue'>Reading</span> Weapons of Math Destruction</div>
+            <div><span className='text-niceblue'>Playing</span> Valorant and Binding of Isaac</div>
+            <div><span className='text-niceblue'>Listening</span> to Pop music</div>
+            <div><span className='text-niceblue'>Learning</span> skateboarding and music production</div>
           </div>
         </div>
         </main>
