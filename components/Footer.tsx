@@ -9,6 +9,7 @@ import Email from '../public/mail-outline.svg';
 import Flag from '../public/flag-outline.svg';
 import Medium from '../public/logo-medium.svg';
 import Resume from '../public/document-text-outline.svg';
+import DiscordButton from '../components/DiscordButton';
 
 const Footer = () => {
     return (
@@ -21,7 +22,8 @@ const Footer = () => {
           <a href="/Resume.pdf" target="_blank"><Resume className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
           <a href="https://www.linkedin.com/in/the-mihir-sahu" target="_blank"><LinkedIn className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
           <a href="https://github.com/MihirSahu" target="_blank"><Github className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
-          <a href="" target="_blank"><Discord className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
+          {/*<a href="" target="_blank"><Discord className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>*/}
+          <DiscordButton/>
           <a href="https://www.instagram.com/themihirsahu/" target="_blank"><Instagram className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
           <a href="mailto:2002mihir@gmail.com" target="_blank"><Email className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
           <a href="https://tryhackme.com/p/TheOnlyOnzz" target="_blank"><Flag className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>

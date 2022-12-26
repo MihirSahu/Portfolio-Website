@@ -14,7 +14,7 @@ const copyDiscordTag = () => {
 const DiscordButton = () => {
 
   return (
-    <div>
+    <div className='flex flex-row justify-center items-center'>
       <button onClick={() => copyDiscordTag()}><Discord className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></button>
       <ToastContainer/>
     </div>
