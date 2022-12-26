@@ -18,6 +18,7 @@ const Header = () => {
             <Link href="/About"><a className={styles.resumeButton}>About</a></Link>
             <Link href="/Experience"><a className={styles.resumeButton}>Experience</a></Link>
             <Link href="/Projects"><a className={styles.resumeButton}>Projects</a></Link>
+            <Link href="/Blog_Newsletter"><a className={styles.resumeButton}>Blog/Newsletter</a></Link>
           </div>
         </header>
       </>
