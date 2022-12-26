@@ -2,17 +2,25 @@ import styles from '../styles/Home.module.css'
 import { useRouter } from 'next/router';
 import BackButton from '../public/chevron-back-outline.svg';
 import Link from 'next/link';
+import { useState } from 'react';
 
 const Header = () => {
 
-    const router = useRouter();
+    // router for back arrow button
+    //const router = useRouter();
+
+    // Responsive navbar
+    const [navActive, setNavActive] = useState(null);
+    const [activeIdx, setActiveIdx] = useState(-1);
 
     return (
       <>
-        <header className='flex flex-row justify-between mt-8 mx-6'>
-          <div className='flex justify-center'>
-            <button onClick={() => router.back()}><BackButton className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></button>
-          </div>
+        <header className='flex flex-row justify-center mt-8 mx-6'>
+          {/* // This is for the back arrow button
+            <div className='flex justify-center'>
+              <button onClick={() => router.back()}><BackButton className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></button>
+            </div>
+          */}
           <div className='flex flex-row space-x-4 flex-wrap gap-y-4 justify-center'>
             <Link href="/"><a className={styles.resumeButton}>Home</a></Link>
             <Link href="/About"><a className={styles.resumeButton}>About</a></Link>
