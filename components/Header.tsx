@@ -22,7 +22,7 @@ const Header = () => {
               <button onClick={() => router.back()}><BackButton className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></button>
             </div>
           */}
-          <div className='flex justify-center self-start absolute top-8 left-10'>
+          <div className='flex justify-center self-start absolute top-6 left-8'>
             <button onClick={() => setNavActive(!navActive)}><MenuButton className="text-3xl" height={40} width={40} fill={'white'} /></button>
           </div>
           { navActive ? (
