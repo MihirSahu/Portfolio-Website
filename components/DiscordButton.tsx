@@ -7,7 +7,7 @@ const copyDiscordTag = () => {
   navigator.clipboard.writeText(tag);
   //alert("Copied the text: " + tag);
   toast("Copied the text: " + tag, {
-    
+    theme: 'dark',
   });
 }
 
