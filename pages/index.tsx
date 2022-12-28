@@ -11,6 +11,7 @@ import Flag from '../public/flag-outline.svg';
 import Medium from '../public/logo-medium.svg';
 import DiscordButton from '../components/DiscordButton';
 import Resume from '../public/document-text-outline.svg';
+import SoundCloud from '../public/logo-soundcloud.svg';
 
 
 const Home: NextPage = () => {
@@ -65,6 +66,7 @@ const Home: NextPage = () => {
             <a href="mailto:2002mihir@gmail.com" target="_blank"><Email className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
             <a href="https://tryhackme.com/p/TheOnlyOnzz" target="_blank"><Flag className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
             <a href="https://mihirsahu.medium.com" target="_blank"><Medium className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
+            <a href="https://soundcloud.com/the-mihir-sahu" target="_blank"><SoundCloud className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
           </div>
         </header>
       </div>
