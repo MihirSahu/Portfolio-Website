@@ -39,9 +39,10 @@ const Home: NextPage = () => {
           />
           </h1>
           <div className='text-center'>
-            <p className='text-xl'>CS and Finance @ <a href='https://uh.edu/' style={{color: '#c80f2e'}}>UH</a></p>
-            <p className='text-xl'>Incoming SWE Intern @ <a href='https://www.chevron.com/' style={{color: "#00acee"}}>Chevron</a></p>
-            <p className='text-xl'>President @ <a href='https://cougarcs.com/' style={{color: "#eb1d25"}}>CougarCS</a></p>
+            <p className='text-xl'>CS and Finance @ <a href='https://uh.edu/' target="_blank" style={{color: '#c80f2e'}}>UH</a></p>
+            <p className='text-xl'>President @ <a href='https://cougarcs.com/' target="_blank" style={{color: "#eb1d25"}}>CougarCS</a></p>
+            <p className='text-xl'>Marketing Intern @ <a href='https://ripplematch.com/index?r=ByTweE' target="_blank" style={{color: "#3c54cd"}}>RippleMatch</a></p>
+            <p className='text-xl'>Incoming SWE Intern @ <a href='https://www.chevron.com/' target="_blank" style={{color: "#00acee"}}>Chevron</a></p>
             {/*<p className='text-xl'>Incoming SWE @ Chevron</p>*/}
           </div>
           <div className='flex space-x-4 flex-wrap justify-center gap-y-4'>
