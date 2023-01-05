@@ -39,7 +39,7 @@ const Blog_NewsLetter = () => {
                     />
                 </div>
                 <div className={styles.newsletter}>
-                    I'm also starting a weekly newsletter called <b className="text-niceblue">What the Tech?</b> where I'll compile a list of news articles, promising developer tools, and other resources that are essential for developers and tech fanatics to know about. Subscribe to the newsletter through the form below!
+                    I'm also starting a monthly newsletter called <b className="text-niceblue">What the Tech?</b> where I'll compile a list of news articles, promising developer tools, and other resources that are essential for developers and tech fanatics to know about. Subscribe to the newsletter through the form below!
                     <iframe className="ml-auto mr-auto" width="540" height="800" src="https://4bcd6d63.sibforms.com/serve/MUIEAF_TLI7_ipmLhCkn2BKHQxPxz0p0NQHrrmx7qBPj_XGpMO7mV5qMigs8Zhsno0KsDw4vHJwxbCEyrthEkWbmJdDGS172SjZpqEcoaqICjrNyeykMajySXPrX0h33UuW7uJ3-OXBigCMRAHPJWA89qWskdGco20m37Gay9zYxsIQZ6iBWShB3AuDfYw_U-Qg16nVc1TLssa4m" frameBorder="0" scrolling="no" allowFullScreen></iframe>
                 </div>
             </div>
