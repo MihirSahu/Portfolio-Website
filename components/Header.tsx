@@ -30,9 +30,9 @@ const Header = () => {
               <div className='flex flex-col duration-300 ease-out mt-5 mx-4 space-y-5 justify-center items-center bg-black'>
                 <Link href="/"><a className={styles.resumeButton} onClick={() => setNavActive(!navActive)}>Home</a></Link>
                 <Link href="/About"><a className={styles.resumeButton} onClick={() => setNavActive(!navActive)}>About</a></Link>
-                <Link href="/Experience"><a className={styles.resumeButton} onClick={() => setNavActive(!navActive)}>Experience</a></Link>
-                <Link href="/Projects"><a className={styles.resumeButton} onClick={() => setNavActive(!navActive)}>Projects</a></Link>
-                <Link href="/Blog_Newsletter"><a className={styles.resumeButton} onClick={() => setNavActive(!navActive)}>Blog/Newsletter</a></Link>
+                {/*<Link href="/Experience"><a className={styles.resumeButton} onClick={() => setNavActive(!navActive)}>Experience</a></Link>*/}
+                {/*<Link href="/Projects"><a className={styles.resumeButton} onClick={() => setNavActive(!navActive)}>Projects</a></Link>*/}
+                {/*<Link href="/Blog_Newsletter"><a className={styles.resumeButton} onClick={() => setNavActive(!navActive)}>Blog/Newsletter</a></Link>*/}
               </div>
             </div>
           ) : (
@@ -45,9 +45,9 @@ const Header = () => {
             <div className='flex flex-row space-x-4 flex-wrap gap-y-4 justify-center'>
               <Link href="/"><a className={styles.resumeButton}>Home</a></Link>
               <Link href="/About"><a className={styles.resumeButton}>About</a></Link>
-              <Link href="/Experience"><a className={styles.resumeButton}>Experience</a></Link>
-              <Link href="/Projects"><a className={styles.resumeButton}>Projects</a></Link>
-              <Link href="/Blog_Newsletter"><a className={styles.resumeButton}>Blog/Newsletter</a></Link>
+              {/*<Link href="/Experience"><a className={styles.resumeButton}>Experience</a></Link>*/}
+              {/*<Link href="/Projects"><a className={styles.resumeButton}>Projects</a></Link>*/}
+              {/*<Link href="/Blog_Newsletter"><a className={styles.resumeButton}>Blog/Newsletter</a></Link>*/}
             </div>
         </header>
       </>
