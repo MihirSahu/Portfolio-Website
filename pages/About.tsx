@@ -105,10 +105,10 @@ const About = () => {
             />
           </div>
           <div className='flex flex-col my-8 space-y-2 justify-center text-center'>
-            <div><span className='text-niceblue'>Reading</span> Weapons of Math Destruction</div>
-            <div><span className='text-niceblue'>Playing</span> Valorant and Binding of Isaac</div>
+            <div><span className='text-niceblue'>Reading</span> The Charisma Myth</div>
+            <div><span className='text-niceblue'>Playing</span> Fortnite</div>
             <div><span className='text-niceblue'>Listening</span> to Pop music</div>
-            <div><span className='text-niceblue'>Learning</span> skateboarding and music production</div>
+            {/*<div><span className='text-niceblue'>Learning</span> skateboarding and music production</div>*/}
           </div>
         </div>
         </main>
