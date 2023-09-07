@@ -41,9 +41,11 @@ const Home: NextPage = () => {
           <div className='text-center'>
             <p className='text-xl'>CS and Finance @ <a href='https://uh.edu/' target="_blank" style={{color: '#c80f2e'}}>UH</a></p>
             <p className='text-xl'>President @ <a href='https://cougarcs.com/' target="_blank" style={{color: "#eb1d25"}}>CougarCS</a></p>
+            <p className='text-xl'>Student Ambassador @ <a href='https://iondistrict.com/' target="_blank" style={{color: "#f54932"}}>The Ion</a></p>
+            <p className='text-xl'>Project Development Assistant @ <a href='https://bidout.app/' target="_blank" style={{color: "#f83b33"}}>BidOut</a></p>
             {/*<p className='text-xl'>Marketing Intern @ <a href='https://ripplematch.com/index?r=ByTweE' target="_blank" style={{color: "#3c54cd"}}>RippleMatch</a></p>*/}
             {/*<p className='text-xl'>Web Dev Intern @ <a href='https://www.linkedin.com/company/seminaut-inc/' target="_blank" style={{color: "#0cf4b3"}}>Seminaut</a></p>*/}
-            <p className='text-xl'>Cloud Intern @ <a href='https://www.chevron.com/' target="_blank" style={{color: "#00acee"}}>Chevron</a></p>
+            {/*<p className='text-xl'>Cloud Intern @ <a href='https://www.chevron.com/' target="_blank" style={{color: "#00acee"}}>Chevron</a></p>*/}
             {/*<p className='text-xl'>Incoming SWE @ Chevron</p>*/}
           </div>
           <div className='flex space-x-4 flex-wrap justify-center gap-y-4'>
@@ -60,7 +62,7 @@ const Home: NextPage = () => {
             <Link href = "https://www.linkedin.com/in/the-mihir-sahu"><a target="_blank"><i className="text-3xl pl-1 pr-1 devicon-linkedin-plain"></i></a></Link>
             <Link href = "https://github.com/MihirSahu"><a target="_blank"><i className="text-3xl pl-1 pr-1 devicon-github-original"></i></a></Link>
             */}
-            <a href="/Resume.pdf" target="_blank"><Resume className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
+            <a href="/Mihir_Sahu_Resume.pdf" target="_blank"><Resume className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
             <a href="https://www.linkedin.com/in/the-mihir-sahu" target="_blank"><LinkedIn className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
             <a href="https://github.com/MihirSahu" target="_blank"><Github className="text-3xl pl-1 pr-1" height={30} width={30} fill={'white'} /></a>
             <DiscordButton/>
