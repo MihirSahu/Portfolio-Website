@@ -24,20 +24,13 @@ const About = () => {
             />
           </div>
           <p className={styles.description}>
-            Hi! I'm Mihir and I'm a third year student double majoring in
-            Computer Science and Finance at the University of Houston.{" "}
+            I'm a Computer Science and Finance student at the University of Houston focusing on new and emerging technologies to prepare myself for a career in helping businesses solve complex problems. 
           </p>
           <p className={styles.description}>
-            I've wanted to learn more about computers from the moment that I
-            was introduced to them, and I've decided to select Computer Science as
-            one of my majors so that I can continue to do so.
+            Currently, I'm the President of CougarCS, the largest computer science organization at the University of Houston. By leading the officer team to encourage professional development, organize educational workshops, and host social events, I hope to create a strong and vibrant community around computer science at the University of Houston.
           </p>
           <p className={styles.description}>
-            In my free time you'll find me reading, browsing Reddit, playing the
-            latest competitive first person shooter games, hanging out with
-            friends, or learning the most random things that you can think of,
-            such as how to solve a rubik's cube in 20 moves or how to make
-            shuffling playing cards look cool.
+            In my downtime, you'll find me reading, learning random things, and trying not to fall off my skateboard.
           </p>
           {/*
           <Carousel
@@ -105,9 +98,10 @@ const About = () => {
             />
           </div>
           <div className='flex flex-col my-8 space-y-2 justify-center text-center'>
-            <div><span className='text-niceblue'>Reading</span> The Charisma Myth</div>
-            <div><span className='text-niceblue'>Playing</span> Fortnite</div>
+            <div><span className='text-niceblue'>Reading</span> Never Eat Alone</div>
+            <div><span className='text-niceblue'>Learning </span> Lockpicking and Cardistry</div>
             <div><span className='text-niceblue'>Listening</span> to Pop music</div>
+            <div><span className='text-niceblue'>Studying</span> for the CCNA</div>
             {/*<div><span className='text-niceblue'>Learning</span> skateboarding and music production</div>*/}
           </div>
         </div>
