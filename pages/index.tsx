@@ -40,9 +40,7 @@ const Home: NextPage = () => {
           </h1>
           <div className='text-center'>
             <p className='text-xl'>CS and Finance @ <a href='https://uh.edu/' target="_blank" style={{color: '#c80f2e'}}>UH</a></p>
-            <p className='text-xl'>President @ <a href='https://cougarcs.com/' target="_blank" style={{color: "#eb1d25"}}>CougarCS</a></p>
             <p className='text-xl'>Student Ambassador @ <a href='https://iondistrict.com/' target="_blank" style={{color: "#f54932"}}>The Ion</a></p>
-            <p className='text-xl'>Project Development Assistant @ <a href='https://bidout.app/' target="_blank" style={{color: "#f83b33"}}>BidOut</a></p>
             {/*<p className='text-xl'>Marketing Intern @ <a href='https://ripplematch.com/index?r=ByTweE' target="_blank" style={{color: "#3c54cd"}}>RippleMatch</a></p>*/}
             {/*<p className='text-xl'>Web Dev Intern @ <a href='https://www.linkedin.com/company/seminaut-inc/' target="_blank" style={{color: "#0cf4b3"}}>Seminaut</a></p>*/}
             {/*<p className='text-xl'>Cloud Intern @ <a href='https://www.chevron.com/' target="_blank" style={{color: "#00acee"}}>Chevron</a></p>*/}
